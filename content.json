@@ -1,0 +1,1655 @@
+{
+  "version": 1,
+  "globals": {
+    "price": 160,
+    "edit_price": 30,
+    "deposit_pct": 50,
+    "whatsapp": "201229726229"
+  },
+  "site": {
+    "title": "عوارة AWARA | صور منتجات بالذكاء الاصطناعي — [price] ج.م للصورة",
+    "description": "صور إعلانية ولقطات موديلز ولوكيشنز لمنتجك بالذكاء الاصطناعي — [price] ج.م للصورة، [deposit_pct]% مقدم والباقي بعد التسليم. اطلب على واتساب.",
+    "og_image": "aw/og.jpg",
+    "favicon": "aw/aw-favicon.png",
+    "logo": "aw/aw-logo-white.png",
+    "show_header": true,
+    "header_cta": "كلمني على واتساب",
+    "header_cta_mobile": "واتساب",
+    "header_message": "أهلاً عوارة 👋 عايز أعرف تفاصيل عن صور المنتجات.",
+    "nav": [
+      {
+        "label": "الشغل",
+        "href": "#aw-work"
+      },
+      {
+        "label": "الأسعار",
+        "href": "#aw-pricing"
+      },
+      {
+        "label": "الأسئلة",
+        "href": "#aw-faq"
+      }
+    ],
+    "footer_text": "صور منتجات بالذكاء الاصطناعي للبراندات المصرية — [price] ج.م للصورة.",
+    "copyright": "AWARA · ما لا يُستبدل.",
+    "site_url": "https://orbyt-eg.org/"
+  },
+  "order": [
+    "hero",
+    "logos",
+    "work",
+    "compare",
+    "process",
+    "pricing",
+    "trust",
+    "about",
+    "reviews",
+    "faq",
+    "cta",
+    "whatsapp"
+  ],
+  "sections": {
+    "hero": {
+      "type": "aw-hero",
+      "disabled": false,
+      "settings": {
+        "show_logo": false,
+        "logo_width": 170,
+        "eyebrow": "استوديو صور منتجات بالذكاء الاصطناعي",
+        "heading": "صور لبراندك بمستوى الحملات العالمية…",
+        "heading_highlight": "بـ [price] جنيه للصورة.",
+        "subheading": "ابعتلي صورة المنتج من موبايلك، وأنا أحوّلها لصور إعلانية ولقطات موديلز ولوكيشنز تخطف العين — من غير استوديو ولا مصوّر ولا موديل.",
+        "cta_label": "ابدأ طلبك على واتساب",
+        "cta_message": "أهلاً عوارة 👋 عايز أعمل صور احترافية لمنتجاتي. ممكن تفاصيل أكتر؟",
+        "cta2_label": "شوف الشغل",
+        "cta2_link": "#aw-work",
+        "note_1": "تدفع [deposit_pct]% مقدم بس",
+        "note_2": "والباقي بعد ما تستلم صورك",
+        "trust_text": "براندات مصرية كتير وثقت فيّا",
+        "badge_value": "[price]",
+        "badge_label": "ج.م للصورة",
+        "badge_bg": "#FFFFFF",
+        "badge_text_color": "#1A0033",
+        "stack_hint": "دوس على الصور تقلّب بينهم",
+        "trust_color": "#EAEAEA",
+        "card_border_color": "#2A1150",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 58,
+        "heading_font_size_mobile": 34,
+        "subheading_font_size_desktop": 20,
+        "subheading_font_size_mobile": 16,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "start",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#C9A6FF",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A001A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 88,
+        "padding_bottom_desktop": 96,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 56,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "slide-up",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 28,
+        "button_padding_v": 16,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "boxed",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 3,
+        "columns_mobile": 1,
+        "gap_desktop": 24,
+        "gap_mobile": 16,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "label": "تراث — عطور",
+            "fallback_asset": "aw-work-04.webp"
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "label": "Piano — أزياء",
+            "fallback_asset": "aw-work-16.webp"
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "label": "تراث — بوستر ريترو",
+            "fallback_asset": "aw-work-13.webp"
+          }
+        },
+        "card_4": {
+          "type": "card",
+          "settings": {
+            "label": "أثير — منتج",
+            "fallback_asset": "aw-work-01.webp"
+          }
+        },
+        "card_5": {
+          "type": "card",
+          "settings": {
+            "label": "Grande — عطور",
+            "fallback_asset": "aw-work-07.webp"
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_2",
+        "card_3",
+        "card_4",
+        "card_5"
+      ]
+    },
+    "logos": {
+      "type": "aw-logos",
+      "disabled": false,
+      "settings": {
+        "heading": "براندات اشتغلت معاهم",
+        "logo_style": "card",
+        "speed": 40,
+        "logo_height_desktop": 46,
+        "logo_height_mobile": 32,
+        "logo_gap": 40,
+        "fade_edges": true,
+        "pause_on_hover": true,
+        "card_bg": "#EAEAEA",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 30,
+        "subheading_font_size_desktop": 16,
+        "subheading_font_size_mobile": 14,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "center",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#BDB6C9",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A001A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 48,
+        "padding_bottom_desktop": 56,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 40,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "fade-in",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 28,
+        "button_padding_v": 16,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "full_width",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 3,
+        "columns_mobile": 1,
+        "gap_desktop": 24,
+        "gap_mobile": 16,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {
+        "logo_1": {
+          "type": "logo",
+          "settings": {
+            "name": "تراث · Torath",
+            "fallback_asset": "aw-brand-torath.webp"
+          }
+        },
+        "logo_2": {
+          "type": "logo",
+          "settings": {
+            "name": "أثير · Atheer",
+            "fallback_asset": "aw-brand-atheer.webp"
+          }
+        },
+        "logo_3": {
+          "type": "logo",
+          "settings": {
+            "name": "Flowry",
+            "fallback_asset": "aw-brand-flowry.webp"
+          }
+        },
+        "logo_4": {
+          "type": "logo",
+          "settings": {
+            "name": "فاطم · Fatem Hijab",
+            "fallback_asset": "aw-brand-fatem.webp"
+          }
+        },
+        "logo_5": {
+          "type": "logo",
+          "settings": {
+            "name": "Old Street",
+            "fallback_asset": "aw-brand-old-street.webp"
+          }
+        },
+        "logo_6": {
+          "type": "logo",
+          "settings": {
+            "name": "TGS Worldwide",
+            "fallback_asset": "aw-brand-tgs.webp"
+          }
+        },
+        "logo_7": {
+          "type": "logo",
+          "settings": {
+            "name": "Ecart",
+            "fallback_asset": "aw-brand-ecart.webp"
+          }
+        },
+        "logo_8": {
+          "type": "logo",
+          "settings": {
+            "name": "Anova",
+            "fallback_asset": "aw-brand-anova.webp"
+          }
+        },
+        "logo_9": {
+          "type": "logo",
+          "settings": {
+            "name": "MASKD",
+            "fallback_asset": "aw-brand-maskd.webp"
+          }
+        }
+      },
+      "block_order": [
+        "logo_1",
+        "logo_2",
+        "logo_3",
+        "logo_4",
+        "logo_5",
+        "logo_6",
+        "logo_7",
+        "logo_8",
+        "logo_9"
+      ]
+    },
+    "work": {
+      "type": "aw-work",
+      "disabled": false,
+      "settings": {
+        "eyebrow": "شغل حقيقي لبراندات حقيقية",
+        "heading": "كل الصور دي",
+        "heading_highlight": "اتعملت بالذكاء الاصطناعي.",
+        "subheading": "منتجات، إعلانات، موديلز وأزياء — دوس على أي صورة تشوفها بحجم كبير.",
+        "show_filters": true,
+        "filter_all": "الكل",
+        "cat1_label": "صور منتجات",
+        "cat2_label": "إعلانات وبوسترات",
+        "cat3_label": "موديلز وأزياء",
+        "cat4_label": "ستوري تيلنج",
+        "initial_count": 12,
+        "load_more_label": "شوف شغل أكتر",
+        "card_radius": 18,
+        "chip_bg": "#140A22",
+        "chip_text_color": "#EAEAEA",
+        "card_title_color": "#FFFFFF",
+        "card_meta_color": "#C9A6FF",
+        "lightbox_cta_label": "عايز صور زي دي",
+        "lightbox_message": "أهلاً عوارة 👋 شفت شغلك لـ [brand] وعايز صور زيها لبراندي.",
+        "cta_text": "منتجك ممكن يبقى الصورة الجاية هنا.",
+        "cta_label": "ابعتلي صورة منتجك",
+        "cta_message": "أهلاً عوارة 👋 شفت البورتفوليو وعايز صور لمنتجاتي. هبعتلك صورة المنتج.",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 46,
+        "heading_font_size_mobile": 30,
+        "subheading_font_size_desktop": 20,
+        "subheading_font_size_mobile": 16,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "center",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#C9A6FF",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A0A0A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 100,
+        "padding_bottom_desktop": 100,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 64,
+        "padding_bottom_mobile": 64,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "slide-up",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 28,
+        "button_padding_v": 16,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "boxed",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 4,
+        "columns_mobile": 2,
+        "gap_desktop": 16,
+        "gap_mobile": 8,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {
+        "item_1": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat1",
+            "fallback_asset": "aw-work-04.webp"
+          }
+        },
+        "item_2": {
+          "type": "item",
+          "settings": {
+            "brand": "Piano",
+            "category": "cat3",
+            "fallback_asset": "aw-work-16.webp"
+          }
+        },
+        "item_3": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · بوستر ريترو",
+            "category": "cat2",
+            "fallback_asset": "aw-work-13.webp"
+          }
+        },
+        "item_4": {
+          "type": "item",
+          "settings": {
+            "brand": "أثير · Atheer",
+            "category": "cat1",
+            "fallback_asset": "aw-work-01.webp"
+          }
+        },
+        "item_5": {
+          "type": "item",
+          "settings": {
+            "brand": "Grande",
+            "category": "cat1",
+            "fallback_asset": "aw-work-06.webp"
+          }
+        },
+        "item_6": {
+          "type": "item",
+          "settings": {
+            "brand": "Dubetta",
+            "category": "cat3",
+            "fallback_asset": "aw-work-15.webp"
+          }
+        },
+        "item_7": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · بوستر ريترو",
+            "category": "cat2",
+            "fallback_asset": "aw-work-11.webp"
+          }
+        },
+        "item_8": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat1",
+            "fallback_asset": "aw-work-03.webp"
+          }
+        },
+        "item_9": {
+          "type": "item",
+          "settings": {
+            "brand": "Piano",
+            "category": "cat3",
+            "fallback_asset": "aw-work-17.webp"
+          }
+        },
+        "item_10": {
+          "type": "item",
+          "settings": {
+            "brand": "أثير · Atheer",
+            "category": "cat2",
+            "fallback_asset": "aw-work-10.webp"
+          }
+        },
+        "item_11": {
+          "type": "item",
+          "settings": {
+            "brand": "Grande",
+            "category": "cat1",
+            "fallback_asset": "aw-work-07.webp"
+          }
+        },
+        "item_12": {
+          "type": "item",
+          "settings": {
+            "brand": "Dubetta",
+            "category": "cat3",
+            "fallback_asset": "aw-work-24.webp"
+          }
+        },
+        "item_13": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · بوستر ريترو",
+            "category": "cat2",
+            "fallback_asset": "aw-work-12.webp"
+          }
+        },
+        "item_14": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat1",
+            "fallback_asset": "aw-work-05.webp"
+          }
+        },
+        "item_15": {
+          "type": "item",
+          "settings": {
+            "brand": "Piano",
+            "category": "cat3",
+            "fallback_asset": "aw-work-18.webp"
+          }
+        },
+        "item_16": {
+          "type": "item",
+          "settings": {
+            "brand": "مداد الهدى",
+            "category": "cat4",
+            "fallback_asset": "aw-work-22.webp"
+          }
+        },
+        "item_17": {
+          "type": "item",
+          "settings": {
+            "brand": "Grill X",
+            "category": "cat1",
+            "fallback_asset": "aw-work-08.webp"
+          }
+        },
+        "item_18": {
+          "type": "item",
+          "settings": {
+            "brand": "Coatology",
+            "category": "cat3",
+            "fallback_asset": "aw-work-20.webp"
+          }
+        },
+        "item_19": {
+          "type": "item",
+          "settings": {
+            "brand": "مداد الهدى",
+            "category": "cat2",
+            "fallback_asset": "aw-work-14.webp"
+          }
+        },
+        "item_20": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat1",
+            "fallback_asset": "aw-work-02.webp"
+          }
+        },
+        "item_21": {
+          "type": "item",
+          "settings": {
+            "brand": "Coatology",
+            "category": "cat3",
+            "fallback_asset": "aw-work-19.webp"
+          }
+        },
+        "item_22": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · ستوري",
+            "category": "cat4",
+            "fallback_asset": "aw-work-23.webp"
+          }
+        },
+        "item_23": {
+          "type": "item",
+          "settings": {
+            "brand": "Lucinte",
+            "category": "cat1",
+            "fallback_asset": "aw-work-09.webp"
+          }
+        },
+        "item_24": {
+          "type": "item",
+          "settings": {
+            "brand": "Zena Wear",
+            "category": "cat3",
+            "fallback_asset": "aw-work-21.webp"
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5",
+        "item_6",
+        "item_7",
+        "item_8",
+        "item_9",
+        "item_10",
+        "item_11",
+        "item_12",
+        "item_13",
+        "item_14",
+        "item_15",
+        "item_16",
+        "item_17",
+        "item_18",
+        "item_19",
+        "item_20",
+        "item_21",
+        "item_22",
+        "item_23",
+        "item_24"
+      ]
+    },
+    "compare": {
+      "type": "aw-compare",
+      "disabled": false,
+      "settings": {
+        "eyebrow": "ليه عوارة؟",
+        "heading": "نفس جودة جلسة التصوير…",
+        "heading_highlight": "من غير وجع الدماغ.",
+        "subheading": "قارن بنفسك بين التصوير التقليدي والصور اللي بعملهالك.",
+        "col_old_title": "التصوير التقليدي",
+        "col_new_title": "مع عوارة",
+        "label_color": "#EAEAEA",
+        "old_color": "#8E8799",
+        "new_color": "#FFFFFF",
+        "cta_label": "عايز أوفّر وأبدأ",
+        "cta_message": "أهلاً عوارة 👋 عايز صور منتجات من غير جلسة تصوير. نبدأ إزاي؟",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 30,
+        "subheading_font_size_desktop": 20,
+        "subheading_font_size_mobile": 16,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "center",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#C9A6FF",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A0A0A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 100,
+        "padding_bottom_desktop": 100,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 64,
+        "padding_bottom_mobile": 64,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "slide-up",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 28,
+        "button_padding_v": 16,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "boxed",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 3,
+        "columns_mobile": 1,
+        "gap_desktop": 24,
+        "gap_mobile": 16,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {
+        "row_1": {
+          "type": "row",
+          "settings": {
+            "label": "التكلفة",
+            "old_text": "استوديو + مصوّر + موديل + لوكيشن",
+            "new_text": "[price] ج.م للصورة — وبس"
+          }
+        },
+        "row_2": {
+          "type": "row",
+          "settings": {
+            "label": "الوقت",
+            "old_text": "أيام أو أسابيع تحضير وتصوير",
+            "new_text": "صورك جاهزة في وقت قياسي"
+          }
+        },
+        "row_3": {
+          "type": "row",
+          "settings": {
+            "label": "اللوكيشن",
+            "old_text": "محدود بالمكان اللي تقدر توصله",
+            "new_text": "أي مكان في الدنيا — بحر، صحرا، استوديو"
+          }
+        },
+        "row_4": {
+          "type": "row",
+          "settings": {
+            "label": "الموديلز",
+            "old_text": "حجز وأجور وتنسيق مواعيد",
+            "new_text": "أي ستايل وأي لوك يناسب جمهورك"
+          }
+        },
+        "row_5": {
+          "type": "row",
+          "settings": {
+            "label": "التعديلات",
+            "old_text": "إعادة تصوير من الأول",
+            "new_text": "تعديلات لحد ما توافق على الصورة"
+          }
+        },
+        "row_6": {
+          "type": "row",
+          "settings": {
+            "label": "الدفع",
+            "old_text": "غالباً كله مقدم",
+            "new_text": "[deposit_pct]% مقدم والباقي بعد التسليم"
+          }
+        }
+      },
+      "block_order": [
+        "row_1",
+        "row_2",
+        "row_3",
+        "row_4",
+        "row_5",
+        "row_6"
+      ]
+    },
+    "process": {
+      "type": "aw-process",
+      "disabled": false,
+      "settings": {
+        "eyebrow": "إزاي بنشتغل",
+        "heading": "4 خطوات بسيطة",
+        "heading_highlight": "من الفكرة لصورك.",
+        "subheading": "كل حاجة على واتساب — من غير فورمات ولا مكالمات طويلة.",
+        "icon_color": "#C9A6FF",
+        "badge_bg": "#FFFFFF",
+        "badge_text_color": "#1A0033",
+        "cta_label": "ابدأ الخطوة الأولى",
+        "cta_message": "أهلاً عوارة 👋 عايز أبدأ. هبعتلك صورة المنتج والفكرة.",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 30,
+        "subheading_font_size_desktop": 20,
+        "subheading_font_size_mobile": 16,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "center",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#C9A6FF",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A001A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 100,
+        "padding_bottom_desktop": 100,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 64,
+        "padding_bottom_mobile": 64,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "slide-up",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 28,
+        "button_padding_v": 16,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "boxed",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 4,
+        "columns_mobile": 1,
+        "gap_desktop": 24,
+        "gap_mobile": 16,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {
+        "step_1": {
+          "type": "step",
+          "settings": {
+            "icon": "chat",
+            "title": "ابعتلي على واتساب",
+            "text": "صورة واضحة للمنتج من موبايلك + فكرتك أو صور مرجعية عاجباك."
+          }
+        },
+        "step_2": {
+          "type": "step",
+          "settings": {
+            "icon": "wallet",
+            "title": "ادفع نص المبلغ",
+            "text": "بنتفق على عدد الصور والسعر، وتدفع [deposit_pct]% مقدم بس عشان نبدأ.",
+            "badge": "[deposit_pct]%"
+          }
+        },
+        "step_3": {
+          "type": "step",
+          "settings": {
+            "icon": "image",
+            "title": "استلم وعدّل",
+            "text": "بتستلم صورك، وأي تعديل قبل ما توافق عليها مشمول في السعر."
+          }
+        },
+        "step_4": {
+          "type": "step",
+          "settings": {
+            "icon": "check",
+            "title": "ادفع الباقي",
+            "text": "بعد ما تستلم وتعتمد صورك، تدفع النص التاني — والصور ملكك.",
+            "badge": "[rest_pct]%"
+          }
+        }
+      },
+      "block_order": [
+        "step_1",
+        "step_2",
+        "step_3",
+        "step_4"
+      ]
+    },
+    "pricing": {
+      "type": "aw-pricing",
+      "disabled": false,
+      "settings": {
+        "eyebrow": "الأسعار",
+        "heading": "سعر واحد واضح.",
+        "heading_highlight": "من غير مفاجآت.",
+        "subheading": "احسب تكلفة طلبك بنفسك، وابعته على واتساب بضغطة واحدة.",
+        "currency": "ج.م",
+        "price_per_image": 160,
+        "edit_price": 30,
+        "deposit_percent": 50,
+        "plan_badge": "الأكثر طلباً",
+        "plan_title": "صورة احترافية لمنتجك",
+        "price_label": "للصورة الواحدة",
+        "features": "صورة بجودة عالية جاهزة للسوشيال ميديا والإعلانات والموقع\nأي ستايل: منتج، لايف ستايل، موديل، أو بوستر إعلاني\nتعديلات مشمولة لحد ما توافق على الصورة\nحق استخدام تجاري كامل للصور",
+        "edit_note": "بعد ما توافق على الصورة، أي تعديل إضافي بـ [edit_price] ج.م بس.",
+        "payment_title": "الدفع على مرحلتين",
+        "deposit_label": "مقدم عشان نبدأ",
+        "remaining_label": "بعد ما تستلم صورك",
+        "calc_title": "احسب تكلفة طلبك",
+        "calc_hint": "اختار عدد الصور، والسعر بيتحسب لوحده.",
+        "images_label": "عدد الصور",
+        "default_images": 5,
+        "max_images": 200,
+        "quick_counts": "1,5,10,20",
+        "edits_label": "تعديلات بعد الاعتماد (اختياري)",
+        "total_label": "الإجمالي",
+        "deposit_now_label": "تدفع دلوقتي",
+        "later_label": "تدفع بعد التسليم",
+        "calc_cta_label": "ابعت الطلب على واتساب",
+        "calc_message": "أهلاً عوارة 👋\nعايز أعمل صور لمنتجاتي.\nعدد الصور: [count]\nتعديلات بعد الاعتماد: [edits]\nالإجمالي: [total] ج.م\nالمقدم: [deposit] ج.م — والباقي [remaining] ج.م بعد التسليم.\nاسم البراند: ",
+        "calc_footnote": "السعر النهائي بيتأكد معاك على واتساب قبل ما تدفع أي حاجة.",
+        "card_bg": "#120A1E",
+        "card_border_color": "#2A1150",
+        "price_color": "#FFFFFF",
+        "edit_note_color": "#EAEAEA",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 30,
+        "subheading_font_size_desktop": 20,
+        "subheading_font_size_mobile": 16,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "center",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#C9A6FF",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A0A0A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 100,
+        "padding_bottom_desktop": 100,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 64,
+        "padding_bottom_mobile": 64,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "slide-up",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 28,
+        "button_padding_v": 16,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "boxed",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 3,
+        "columns_mobile": 1,
+        "gap_desktop": 24,
+        "gap_mobile": 16,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "trust": {
+      "type": "aw-trust",
+      "disabled": false,
+      "settings": {
+        "eyebrow": "ضمانك معايا",
+        "heading": "إنت مش هتخاطر",
+        "heading_highlight": "بحاجة.",
+        "card_bg": "#120A1E",
+        "card_border_color": "#241038",
+        "icon_color": "#C9A6FF",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 30,
+        "subheading_font_size_desktop": 20,
+        "subheading_font_size_mobile": 16,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "center",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#C9A6FF",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A0A0A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 40,
+        "padding_bottom_desktop": 100,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 16,
+        "padding_bottom_mobile": 64,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "slide-up",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 28,
+        "button_padding_v": 16,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "boxed",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 4,
+        "columns_mobile": 2,
+        "gap_desktop": 20,
+        "gap_mobile": 12,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "icon": "wallet",
+            "title": "نص المبلغ بس مقدم",
+            "text": "الباقي بعد ما تستلم صورك وتتأكد منها."
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "icon": "refresh",
+            "title": "تعديلات لحد ما توافق",
+            "text": "مش هنقفل الصورة غير وهي عاجباك."
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "icon": "doc",
+            "title": "الصور ملكك",
+            "text": "حق استخدام تجاري كامل — بوستات وإعلانات وموقع."
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "icon": "chat",
+            "title": "رد سريع على واتساب",
+            "text": "بتكلمني أنا مباشرة، من غير وسطاء."
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4"
+      ]
+    },
+    "about": {
+      "type": "aw-about",
+      "disabled": false,
+      "settings": {
+        "fallback_asset": "aw-founder.webp",
+        "eyebrow": "مين ورا عوارة؟",
+        "name": "محمد عوارة",
+        "role": "AI Creative Director · مؤسس «تراث» · شريك مؤسس في Anova",
+        "story": "بدأت براند العطور «تراث» بـ 1,500 جنيه بس، ووصلت بيه لأكتر من مليون مبيعات في 3 دول. أهم درس اتعلمته: الصورة هي أول حاجة بتبيع.\nدلوقتي بستخدم أقوى أدوات الذكاء الاصطناعي — مع عين بتراجع كل فريم — عشان أعمل لبراندك صور بمستوى الحملات الكبيرة، بسعر يناسب البراندات المصرية.",
+        "stat_color": "#FFFFFF",
+        "cta_label": "كلّمني مباشرة",
+        "cta_message": "أهلاً محمد 👋 عايز أتكلم معاك عن صور لبراندي.",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 30,
+        "subheading_font_size_desktop": 18,
+        "subheading_font_size_mobile": 16,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "start",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#C9A6FF",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A001A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 100,
+        "padding_bottom_desktop": 100,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 64,
+        "padding_bottom_mobile": 64,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "slide-up",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 28,
+        "button_padding_v": 16,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "boxed",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 4,
+        "columns_mobile": 2,
+        "gap_desktop": 12,
+        "gap_mobile": 8,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {
+        "stat_1": {
+          "type": "stat",
+          "settings": {
+            "prefix": "+",
+            "value": 1,
+            "label": "مبيعات «تراث»",
+            "suffix": "M"
+          }
+        },
+        "stat_2": {
+          "type": "stat",
+          "settings": {
+            "prefix": "+",
+            "value": 9,
+            "label": "براندات اشتغلت معاهم"
+          }
+        },
+        "stat_3": {
+          "type": "stat",
+          "settings": {
+            "prefix": "+",
+            "value": 138,
+            "label": "صورة اتسلّمت"
+          }
+        },
+        "stat_4": {
+          "type": "stat",
+          "settings": {
+            "prefix": "",
+            "value": 3,
+            "label": "دول وصلها «تراث»"
+          }
+        }
+      },
+      "block_order": [
+        "stat_1",
+        "stat_2",
+        "stat_3",
+        "stat_4"
+      ]
+    },
+    "reviews": {
+      "type": "aw-reviews",
+      "disabled": true,
+      "settings": {
+        "eyebrow": "آراء العملاء",
+        "heading": "البراندات بتقول إيه",
+        "heading_highlight": "عن شغلنا.",
+        "card_bg": "#120A1E",
+        "card_border_color": "#241038",
+        "quote_color": "#EAEAEA",
+        "star_color": "#FFC93C",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 30,
+        "subheading_font_size_desktop": 20,
+        "subheading_font_size_mobile": 16,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "center",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#C9A6FF",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A0A0A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 100,
+        "padding_bottom_desktop": 100,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 64,
+        "padding_bottom_mobile": 64,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "slide-up",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 28,
+        "button_padding_v": 16,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "boxed",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 3,
+        "columns_mobile": 1,
+        "gap_desktop": 20,
+        "gap_mobile": 16,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {
+        "quote_1": {
+          "type": "quote",
+          "settings": {
+            "quote": "اكتب هنا رأي عميل حقيقي.",
+            "name": "اسم العميل",
+            "brand": "اسم البراند",
+            "rating": 5
+          }
+        },
+        "quote_2": {
+          "type": "quote",
+          "settings": {
+            "quote": "اكتب هنا رأي عميل حقيقي.",
+            "name": "اسم العميل",
+            "brand": "اسم البراند",
+            "rating": 5
+          }
+        },
+        "quote_3": {
+          "type": "quote",
+          "settings": {
+            "quote": "اكتب هنا رأي عميل حقيقي.",
+            "name": "اسم العميل",
+            "brand": "اسم البراند",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_1",
+        "quote_2",
+        "quote_3"
+      ]
+    },
+    "faq": {
+      "type": "aw-faq",
+      "disabled": false,
+      "settings": {
+        "eyebrow": "أسئلة بتتسأل كتير",
+        "heading": "عندك سؤال؟",
+        "heading_highlight": "غالباً إجابته هنا.",
+        "subheading": "لو سؤالك مش موجود، ابعتهولي على واتساب وهرد عليك بنفسي.",
+        "open_first": true,
+        "enable_schema": true,
+        "item_bg": "#120A1E",
+        "question_color": "#FFFFFF",
+        "answer_color": "#BDB6C9",
+        "cta_label": "اسألني على واتساب",
+        "cta_message": "أهلاً عوارة 👋 عندي سؤال: ",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 44,
+        "heading_font_size_mobile": 30,
+        "subheading_font_size_desktop": 20,
+        "subheading_font_size_mobile": 16,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "start",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#C9A6FF",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A001A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 100,
+        "padding_bottom_desktop": 100,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 64,
+        "padding_bottom_mobile": 64,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "slide-up",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 28,
+        "button_padding_v": 16,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "boxed",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 3,
+        "columns_mobile": 1,
+        "gap_desktop": 24,
+        "gap_mobile": 16,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {
+        "qa_1": {
+          "type": "qa",
+          "settings": {
+            "question": "الصور دي حقيقية ولا ذكاء اصطناعي؟",
+            "answer": "<p>الصور بتتعمل بأقوى أدوات الذكاء الاصطناعي، بس كل صورة بتعدّي على عيني قبل ما توصلك — الإضاءة والتفاصيل وشكل المنتج. النتيجة: صورة بمستوى جلسة تصوير احترافية، من غير استوديو.</p>"
+          }
+        },
+        "qa_2": {
+          "type": "qa",
+          "settings": {
+            "question": "سعر الصورة كام بالظبط؟",
+            "answer": "<p>الصورة الواحدة بـ <strong>[price] ج.م</strong>. التعديلات لحد ما توافق على الصورة مشمولة في السعر. بعد ما توافق (تعتمد الصورة)، أي تعديل إضافي بـ <strong>[edit_price] ج.م</strong> بس.</p>"
+          }
+        },
+        "qa_3": {
+          "type": "qa",
+          "settings": {
+            "question": "الدفع بيبقى إزاي؟",
+            "answer": "<p>بتدفع <strong>[deposit_pct]% مقدم</strong> عشان نبدأ، و<strong>الـ [rest_pct]% الباقيين بعد التسليم</strong>. وسيلة الدفع بنتفق عليها مع بعض على واتساب.</p>"
+          }
+        },
+        "qa_4": {
+          "type": "qa",
+          "settings": {
+            "question": "محتاج أبعتلك إيه عشان نبدأ؟",
+            "answer": "<p>صورة واضحة للمنتج (من موبايلك عادي)، وفكرة بسيطة عن الستايل اللي عايزه — ولو عندك صور مرجعية عاجباك يبقى أحسن.</p>"
+          }
+        },
+        "qa_5": {
+          "type": "qa",
+          "settings": {
+            "question": "يعني إيه «تعديل بعد الاعتماد»؟",
+            "answer": "<p>لما الصورة توصلك بتقدر تطلب تعديلات لحد ما تبقى عاجباك وتوافق عليها — ده مشمول. لو بعد الموافقة حبيت تغيّر حاجة جديدة (لون، خلفية، تفصيلة)، التعديل ده بـ [edit_price] ج.م.</p>"
+          }
+        },
+        "qa_6": {
+          "type": "qa",
+          "settings": {
+            "question": "أقدر أستخدم الصور في الإعلانات الممولة؟",
+            "answer": "<p>أكيد. الصور ملكك بحق استخدام تجاري كامل — بوستات، إعلانات ممولة، موقعك، أو المطبوعات.</p>"
+          }
+        },
+        "qa_7": {
+          "type": "qa",
+          "settings": {
+            "question": "الصور بتتسلم إمتى؟",
+            "answer": "<p>بيتحدد معاك على واتساب حسب عدد الصور. الطلبات الصغيرة بتخلص بسرعة، والطلبات الكبيرة بنتفق على ميعاد تسليم واضح من الأول.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "qa_1",
+        "qa_2",
+        "qa_3",
+        "qa_4",
+        "qa_5",
+        "qa_6",
+        "qa_7"
+      ]
+    },
+    "cta": {
+      "type": "aw-cta",
+      "disabled": false,
+      "settings": {
+        "eyebrow": "جاهز؟",
+        "heading": "صورة منتجك الجاية",
+        "heading_highlight": "ممكن تبقى إعلانك الأنجح.",
+        "subheading": "ابعتلي صورة المنتج دلوقتي على واتساب، وأنا أقولك ممكن نعمل بيها إيه.",
+        "cta_label": "ابعت صورة منتجك على واتساب",
+        "cta_message": "أهلاً عوارة 👋 عايز أبدأ صور لمنتجاتي. هبعتلك صورة المنتج دلوقتي.",
+        "note_1": "[price] ج.م للصورة",
+        "note_2": "[deposit_pct]% مقدم بس",
+        "note_3": "تعديلات لحد ما توافق",
+        "show_number": true,
+        "box_bg_start": "#1A0033",
+        "box_bg_end": "#0A001A",
+        "box_glow": "#6A00FF",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 52,
+        "heading_font_size_mobile": 30,
+        "subheading_font_size_desktop": 20,
+        "subheading_font_size_mobile": 16,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "center",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#C9A6FF",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A001A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 40,
+        "padding_bottom_desktop": 100,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 56,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "slide-up",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 28,
+        "button_padding_v": 16,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "boxed",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 3,
+        "columns_mobile": 1,
+        "gap_desktop": 24,
+        "gap_mobile": 16,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "whatsapp": {
+      "type": "aw-whatsapp",
+      "disabled": false,
+      "settings": {
+        "whatsapp_number": "201229726229",
+        "default_message": "أهلاً عوارة 👋 عايز أعرف تفاصيل عن صور المنتجات.",
+        "float_label": "كلمني على واتساب",
+        "position": "end",
+        "offset_side": 22,
+        "offset_bottom": 22,
+        "show_after": 300,
+        "float_bg": "#25D366",
+        "float_icon_color": "#FFFFFF",
+        "bubble_text": "أهلاً 👋 عايز تعرف تكلفة صور منتجك؟",
+        "bubble_delay": 8,
+        "show_bar": true,
+        "bar_price": "[price] ج.م للصورة",
+        "bar_text": "[deposit_pct]% مقدم والباقي بعد التسليم",
+        "bar_button": "اطلب دلوقتي",
+        "bar_bg": "#0F0020",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 30,
+        "subheading_font_size_desktop": 20,
+        "subheading_font_size_mobile": 16,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "center",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#C9A6FF",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A0A0A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 0,
+        "padding_bottom_desktop": 0,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "none",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 18,
+        "button_padding_v": 12,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "boxed",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 3,
+        "columns_mobile": 1,
+        "gap_desktop": 24,
+        "gap_mobile": 16,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {},
+      "block_order": []
+    }
+  }
+}
