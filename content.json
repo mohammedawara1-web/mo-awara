@@ -424,14 +424,6 @@
         "show_on_mobile": true
       },
       "blocks": {
-        "item_1": {
-          "type": "item",
-          "settings": {
-            "brand": "تراث · Torath",
-            "category": "cat1",
-            "fallback_asset": "aw-work-04.webp"
-          }
-        },
         "item_2": {
           "type": "item",
           "settings": {
@@ -454,14 +446,6 @@
             "brand": "أثير · Atheer",
             "category": "cat1",
             "fallback_asset": "aw-work-01.webp"
-          }
-        },
-        "item_5": {
-          "type": "item",
-          "settings": {
-            "brand": "Grande",
-            "category": "cat1",
-            "fallback_asset": "aw-work-06.webp"
           }
         },
         "item_6": {
@@ -615,19 +599,57 @@
             "category": "cat3",
             "fallback_asset": "aw-work-21.webp"
           }
+        },
+        "item_mwmksqnn": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث",
+            "category": "cat2",
+            "image": "aw/uploads/torath-bf-bundle1500-banner-mo-mwmks04k.webp"
+          }
+        },
+        "item_mwmksyv1": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث",
+            "category": "cat2",
+            "image": "aw/uploads/torath-bf-hero-bundle1500-all--mwmkswoe.webp"
+          }
+        },
+        "item_mwmkvdxm": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث",
+            "category": "cat2",
+            "image": "aw/uploads/perfume-bottles-on-silk-with-f-mwmkv9al.webp"
+          }
+        },
+        "item_mwmkwnsy": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث",
+            "category": "cat2",
+            "image": "aw/uploads/kayali-bundle-2-mwmkwllp.webp"
+          }
+        },
+        "item_mwmkxlz0": {
+          "type": "item",
+          "settings": {
+            "brand": "After",
+            "category": "cat2",
+            "image": "aw/uploads/after-sunset-perfume-ad-mwmkxjca.webp"
+          }
         }
       },
       "block_order": [
-        "item_1",
         "item_2",
-        "item_3",
         "item_4",
-        "item_5",
-        "item_6",
-        "item_7",
-        "item_8",
-        "item_9",
         "item_10",
+        "item_7",
+        "item_3",
+        "item_8",
+        "item_6",
+        "item_9",
         "item_11",
         "item_12",
         "item_13",
@@ -638,10 +660,15 @@
         "item_18",
         "item_19",
         "item_20",
-        "item_21",
         "item_22",
         "item_23",
-        "item_24"
+        "item_21",
+        "item_24",
+        "item_mwmkxlz0",
+        "item_mwmkwnsy",
+        "item_mwmkvdxm",
+        "item_mwmksyv1",
+        "item_mwmksqnn"
       ]
     },
     "compare": {
