@@ -105,6 +105,23 @@
       var more = g.querySelector('[data-aw-more]');
       var limit = parseInt(g.getAttribute('data-aw-limit') || '12', 10);
       var cat = 'all', expanded = false;
+      var grid = g.querySelector('.aw-work__grid'), lastCols = 0;
+      /* Fill the masonry row by row (1st photo top-start, 2nd next to it…) so the
+         admin order is the reading order. Without JS the CSS columns still work. */
+      function layout(force) {
+        if (!grid) return;
+        var n = parseInt(getComputedStyle(grid).getPropertyValue('--aw-cols'), 10) || 1;
+        if (!force && n === lastCols) return;
+        lastCols = n;
+        var cols = [], i;
+        for (i = 0; i < n; i++) { cols.push(document.createElement('div')); cols[i].className = 'aw-work__col'; }
+        var k = 0;
+        items.forEach(function (it) { (it.hidden ? cols[n - 1] : cols[k++ % n]).appendChild(it); });
+        $all(grid, '.aw-work__col').forEach(function (c) { c.remove(); });
+        cols.forEach(function (c) { grid.appendChild(c); });
+        grid.classList.add('is-rows');
+      }
+      window.addEventListener('resize', function () { layout(false); });
       function apply() {
         var shown = 0;
         items.forEach(function (it) {
@@ -115,6 +132,7 @@
         });
         var total = items.filter(function (it) { return cat === 'all' || it.getAttribute('data-cat') === cat; }).length;
         if (more) more.hidden = expanded || total <= limit;
+        layout(true);
       }
       chips.forEach(function (c) {
         c.addEventListener('click', function () {

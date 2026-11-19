@@ -10,8 +10,8 @@
     "title": "عوارة AWARA | صور منتجات بالذكاء الاصطناعي — [price] ج.م للصورة",
     "description": "صور إعلانية ولقطات موديلز ولوكيشنز لمنتجك بالذكاء الاصطناعي — [price] ج.م للصورة، [deposit_pct]% مقدم والباقي بعد التسليم. اطلب على واتساب.",
     "og_image": "aw/og.jpg",
-    "favicon": "aw/aw-favicon.png",
-    "logo": "aw/aw-logo-white.png",
+    "favicon": "aw/aw-favicon.webp",
+    "logo": "aw/aw-logo-white.webp",
     "show_header": true,
     "header_cta": "كلمني على واتساب",
     "header_cta_mobile": "واتساب",
@@ -639,35 +639,197 @@
             "category": "cat2",
             "image": "aw/uploads/after-sunset-perfume-ad-mwmkxjca.webp"
           }
+        },
+        "new_01": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat2",
+            "image": "aw/uploads/torath-bridal-mix-match.webp"
+          }
+        },
+        "new_02": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat2",
+            "image": "aw/uploads/torath-summer-collection.webp"
+          }
+        },
+        "new_03": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat2",
+            "image": "aw/uploads/torath-summer-collection-2.webp"
+          }
+        },
+        "new_04": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat2",
+            "image": "aw/uploads/torath-customer-review.webp"
+          }
+        },
+        "new_05": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat2",
+            "image": "aw/uploads/torath-honeymoon-bundle.webp"
+          }
+        },
+        "new_06": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat2",
+            "image": "aw/uploads/torath-dating-bundle.webp"
+          }
+        },
+        "new_07": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat1",
+            "image": "aw/uploads/torath-hawas-candles.webp"
+          }
+        },
+        "new_08": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat1",
+            "image": "aw/uploads/torath-nabeez-roses.webp"
+          }
+        },
+        "new_09": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · بوستر ريترو",
+            "category": "cat2",
+            "image": "aw/uploads/torath-fairuz-magazine.webp"
+          }
+        },
+        "new_10": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · بوستر ريترو",
+            "category": "cat2",
+            "image": "aw/uploads/torath-enta-habibi.webp"
+          }
+        },
+        "new_12": {
+          "type": "item",
+          "settings": {
+            "brand": "براند أزياء",
+            "category": "cat3",
+            "image": "aw/uploads/fashion-street-hijab.webp"
+          }
+        },
+        "new_14": {
+          "type": "item",
+          "settings": {
+            "brand": "براند أزياء",
+            "category": "cat3",
+            "image": "aw/uploads/fashion-desert-hijab.webp"
+          }
+        },
+        "new_15": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat1",
+            "image": "aw/uploads/torath-ahd-dresses.webp"
+          }
+        },
+        "new_16": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat1",
+            "image": "aw/uploads/torath-ghaith-vangogh.webp"
+          }
+        },
+        "new_17": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat1",
+            "image": "aw/uploads/torath-nabeez-flatlay.webp"
+          }
+        },
+        "new_18": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat1",
+            "image": "aw/uploads/torath-hawas-barrel.webp"
+          }
+        },
+        "new_19": {
+          "type": "item",
+          "settings": {
+            "brand": "تراث · Torath",
+            "category": "cat1",
+            "image": "aw/uploads/torath-hawas-pour.webp"
+          }
+        },
+        "new_20": {
+          "type": "item",
+          "settings": {
+            "brand": "براند أزياء",
+            "category": "cat3",
+            "image": "aw/uploads/fashion-olive-set.webp"
+          }
         }
       },
       "block_order": [
-        "item_2",
+        "new_01",
+        "item_mwmkxlz0",
+        "new_02",
+        "new_12",
+        "item_17",
+        "new_03",
+        "new_14",
+        "new_04",
+        "new_05",
+        "new_20",
+        "new_06",
         "item_4",
+        "item_2",
+        "new_07",
         "item_10",
-        "item_7",
-        "item_3",
-        "item_8",
+        "new_08",
+        "new_09",
         "item_6",
+        "new_10",
         "item_9",
         "item_11",
+        "new_15",
         "item_12",
-        "item_13",
-        "item_14",
+        "new_16",
+        "new_17",
         "item_15",
+        "new_18",
         "item_16",
-        "item_17",
         "item_18",
+        "new_19",
+        "item_7",
         "item_19",
+        "item_3",
+        "item_8",
+        "item_13",
+        "item_23",
+        "item_14",
         "item_20",
         "item_22",
-        "item_23",
         "item_21",
-        "item_24",
-        "item_mwmkxlz0",
         "item_mwmkwnsy",
         "item_mwmkvdxm",
         "item_mwmksyv1",
+        "item_24",
         "item_mwmksqnn"
       ]
     },
