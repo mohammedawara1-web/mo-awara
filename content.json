@@ -38,6 +38,7 @@
     "hero",
     "logos",
     "work",
+    "system",
     "compare",
     "process",
     "pricing",
@@ -141,35 +142,40 @@
           "type": "card",
           "settings": {
             "label": "تراث — عطور",
-            "fallback_asset": "aw-work-04.webp"
+            "fallback_asset": "aw-work-04.webp",
+            "image": "aw/uploads/torath-hawas-pour.webp"
           }
         },
         "card_2": {
           "type": "card",
           "settings": {
-            "label": "Piano — أزياء",
-            "fallback_asset": "aw-work-16.webp"
+            "label": "أزياء — موديل",
+            "fallback_asset": "aw-work-16.webp",
+            "image": "aw/uploads/fashion-desert-hijab.webp"
           }
         },
         "card_3": {
           "type": "card",
           "settings": {
-            "label": "تراث — بوستر ريترو",
-            "fallback_asset": "aw-work-13.webp"
+            "label": "After — إعلان",
+            "fallback_asset": "aw-work-13.webp",
+            "image": "aw/uploads/after-sunset-perfume-ad-mwmkxjca.webp"
           }
         },
         "card_4": {
           "type": "card",
           "settings": {
-            "label": "أثير — منتج",
-            "fallback_asset": "aw-work-01.webp"
+            "label": "تراث — منتج",
+            "fallback_asset": "aw-work-01.webp",
+            "image": "aw/uploads/torath-nabeez-flatlay.webp"
           }
         },
         "card_5": {
           "type": "card",
           "settings": {
-            "label": "Grande — عطور",
-            "fallback_asset": "aw-work-07.webp"
+            "label": "أزياء — لايف ستايل",
+            "fallback_asset": "aw-work-07.webp",
+            "image": "aw/uploads/fashion-street-hijab.webp"
           }
         }
       },
@@ -1839,6 +1845,215 @@
       },
       "blocks": {},
       "block_order": []
+    },
+    "system": {
+      "type": "aw-system",
+      "disabled": false,
+      "settings": {
+        "eyebrow": "مش برومبت وخلاص",
+        "heading": "ورا كل صورة",
+        "heading_highlight": "سيستم كامل متصمم لبراندك.",
+        "subheading": "مش بنكتب برومبت ونستنى الحظ. لكل براند بنبني سيستم إنتاج: صور المنتج بتدخل، وكل خطوة بتطلّع نتيجة ثابتة ومتراجعة — لحد ما توصل لصور جاهزة للبيع.",
+        "ba_title": "من صور موبايل عادية… لصورة منتج جاهزة للمتجر",
+        "before_label": "المراجع اللي وصلتنا",
+        "after_label": "اللي طلع من السيستم",
+        "arrow_label": "السيستم",
+        "flow_title": "جوّه السيستم — شغل حقيقي لبراند أزياء",
+        "flow_interval": 5,
+        "card_bg": "#140A22",
+        "card_border": "#2A1150",
+        "step_title_color": "#FFFFFF",
+        "tag_bg": "#FFFFFF",
+        "tag_text": "#1A0033",
+        "cta_label": "عايز سيستم لبراندي",
+        "cta_message": "أهلاً عوارة 👋 شفت السيستم بتاعك وعايز صور لبراندي بنفس الطريقة.",
+        "text_direction": "rtl",
+        "font_mode": "brand",
+        "font_family": "assistant_n4",
+        "base_font_size_desktop": 16,
+        "base_font_size_mobile": 15,
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 30,
+        "subheading_font_size_desktop": 20,
+        "subheading_font_size_mobile": 16,
+        "paragraph_font_size_desktop": 16,
+        "paragraph_font_size_mobile": 15,
+        "font_weight": "400",
+        "text_align": "center",
+        "letter_spacing": 0,
+        "line_height": 16,
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#C9A6FF",
+        "paragraph_color": "#BDB6C9",
+        "accent_color": "#8F3BFF",
+        "bg_color": "#0A001A",
+        "bg_image_position": "center center",
+        "bg_image_size": "cover",
+        "bg_overlay_color": "#1A0033",
+        "bg_overlay_opacity": 0,
+        "padding_top_desktop": 100,
+        "padding_bottom_desktop": 100,
+        "padding_left_desktop": 24,
+        "padding_right_desktop": 24,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobile": 64,
+        "padding_bottom_mobile": 64,
+        "padding_left_mobile": 16,
+        "padding_right_mobile": 16,
+        "border_radius": 0,
+        "border_width": 0,
+        "border_color": "#1F1F1F",
+        "enable_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_x": 0,
+        "shadow_y": 4,
+        "shadow_blur": 12,
+        "entrance_animation": "slide-up",
+        "animation_duration": 700,
+        "animation_delay": 0,
+        "button_bg_color": "#6A00FF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#8F3BFF",
+        "button_border_radius": 50,
+        "button_padding_h": 28,
+        "button_padding_v": 16,
+        "button_hover_bg_color": "#8F3BFF",
+        "button_hover_text_color": "#FFFFFF",
+        "container_type": "boxed",
+        "container_custom_width": 1200,
+        "container_custom_width_mobile": 400,
+        "columns_desktop": 4,
+        "columns_mobile": 2,
+        "gap_desktop": 16,
+        "gap_mobile": 12,
+        "show_on_desktop": true,
+        "show_on_mobile": true
+      },
+      "blocks": {
+        "ref_mwo9pdjs0": {
+          "type": "ref",
+          "settings": {
+            "fallback_asset": "aw-sys-ref-1.webp"
+          }
+        },
+        "ref_mwo9pdjs1": {
+          "type": "ref",
+          "settings": {
+            "fallback_asset": "aw-sys-ref-2.webp"
+          }
+        },
+        "ref_mwo9pdjs2": {
+          "type": "ref",
+          "settings": {
+            "fallback_asset": "aw-sys-ref-3.webp"
+          }
+        },
+        "ref_mwo9pdjs3": {
+          "type": "ref",
+          "settings": {
+            "fallback_asset": "aw-sys-ref-4.webp"
+          }
+        },
+        "result_mwo9pdjs4": {
+          "type": "result",
+          "settings": {
+            "label": "صورة المنتج",
+            "fallback_asset": "aw-sys-result-1.webp"
+          }
+        },
+        "result_mwo9pdjs5": {
+          "type": "result",
+          "settings": {
+            "label": "زاوية تانية",
+            "fallback_asset": "aw-sys-result-2.webp"
+          }
+        },
+        "result_mwo9pdjs6": {
+          "type": "result",
+          "settings": {
+            "label": "الضهر",
+            "fallback_asset": "aw-sys-result-3.webp"
+          }
+        },
+        "step_mwo9pdjs7": {
+          "type": "step",
+          "settings": {
+            "title": "المراجع بتدخل السيستم",
+            "text": "صور المنتج من الموبايل — حتى لو الإضاءة مش مظبوطة والخلفية زحمة. السيستم بيطلّع منها صورة منتج نضيفة بنفس القصّة واللون والخامة.",
+            "fallback_asset": "aw-sys-step-1.webp"
+          }
+        },
+        "step_mwo9pdjs8": {
+          "type": "step",
+          "settings": {
+            "title": "صورة واحدة… عشرات اللقطات",
+            "text": "كل منتج بيتفرّع لموديلز ولوكيشنز وزوايا مختلفة، وكلهم محافظين على نفس تفاصيل القطعة.",
+            "fallback_asset": "aw-sys-step-2.webp"
+          }
+        },
+        "step_mwo9pdjs9": {
+          "type": "step",
+          "settings": {
+            "title": "الكولكشن كله في سيستم واحد",
+            "text": "كل خط هنا خطوة محسوبة. ده سيستم براند واحد بيطلّع الكولكشن كامل بنفس الجودة — مش صورة بصورة بالحظ.",
+            "fallback_asset": "aw-sys-step-3.webp"
+          }
+        },
+        "step_mwo9pdjs10": {
+          "type": "step",
+          "settings": {
+            "title": "تعديل من غير ما نبوّظ الباقي",
+            "text": "أي تعديل بيتعمل على الخطوة نفسها، فباقي الصور بتفضل ثابتة ومتناسقة.",
+            "fallback_asset": "aw-sys-step-4.webp"
+          }
+        },
+        "point_mwo9pdjs11": {
+          "type": "point",
+          "settings": {
+            "title": "نفس تفاصيل المنتج",
+            "text": "القصّة واللون والخامة ثابتين في كل صورة — العميل يستلم اللي شافه."
+          }
+        },
+        "point_mwo9pdjs12": {
+          "type": "point",
+          "settings": {
+            "title": "نفس الستايل في الكولكشن",
+            "text": "موديل ولوك وإضاءة واحدة لكل البراند، فصفحتك تبان متناسقة."
+          }
+        },
+        "point_mwo9pdjs13": {
+          "type": "point",
+          "settings": {
+            "title": "كولكشن كامل في أيام",
+            "text": "السيستم بيتبني مرة، وبعدها أي منتج جديد بيدخل ويطلع بسرعة."
+          }
+        },
+        "point_mwo9pdjs14": {
+          "type": "point",
+          "settings": {
+            "title": "كل صورة متراجعة",
+            "text": "مفيش صورة بتوصلك قبل ما تتراجع — والتعديلات قبل الاعتماد مجانية."
+          }
+        }
+      },
+      "block_order": [
+        "ref_mwo9pdjs0",
+        "ref_mwo9pdjs1",
+        "ref_mwo9pdjs2",
+        "ref_mwo9pdjs3",
+        "result_mwo9pdjs4",
+        "result_mwo9pdjs5",
+        "result_mwo9pdjs6",
+        "step_mwo9pdjs7",
+        "step_mwo9pdjs8",
+        "step_mwo9pdjs9",
+        "step_mwo9pdjs10",
+        "point_mwo9pdjs11",
+        "point_mwo9pdjs12",
+        "point_mwo9pdjs13",
+        "point_mwo9pdjs14"
+      ]
     }
   }
 }

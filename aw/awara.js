@@ -308,10 +308,32 @@
     });
   }
 
+  /* ---------- "systems not prompts" workflow screens: click a step or let it auto-advance ---------- */
+  function initSystem(root) {
+    $all(root, '[data-aw-sys]').forEach(function (box) {
+      if (box._awSys) return; box._awSys = true;
+      var steps = $all(box, '[data-aw-sys-step]'), shots = $all(box, '[data-aw-sys-shot]');
+      if (!steps.length) return;
+      var ms = Math.max(2, parseInt(box.getAttribute('data-aw-interval') || '5', 10)) * 1000;
+      var cur = 0, timer = null, visible = false, auto = !reduced;
+      function show(i) {
+        cur = (i + steps.length) % steps.length;
+        steps.forEach(function (b, k) { b.classList.toggle('is-on', k === cur); b.setAttribute('aria-pressed', k === cur ? 'true' : 'false'); });
+        shots.forEach(function (im, k) { im.classList.toggle('is-on', k === cur); });
+        if (auto) { box.classList.remove('is-auto'); void box.offsetWidth; box.classList.add('is-auto'); }
+      }
+      function tick() { clearTimeout(timer); if (auto && visible) timer = setTimeout(function () { show(cur + 1); tick(); }, ms); }
+      steps.forEach(function (b, k) { b.addEventListener('click', function () { auto = false; box.classList.remove('is-auto'); clearTimeout(timer); show(k); }); });
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (es) { visible = es[0].isIntersecting; if (visible && auto) { show(cur); tick(); } else clearTimeout(timer); }, { threshold: 0.35 }).observe(box);
+      } else { visible = true; tick(); }
+    });
+  }
+
   function init(root) {
     root = root || document;
     initFloat(root); initWa(root); initReveal(root); initCounters(root); initHero(root);
-    initGallery(root); initCalc(root); initProgress(root); initFaq(root);
+    initGallery(root); initCalc(root); initProgress(root); initFaq(root); initSystem(root);
   }
 
   window.AWARA = { init: init, waUrl: waUrl };
