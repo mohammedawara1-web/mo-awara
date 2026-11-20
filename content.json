@@ -1377,47 +1377,8 @@
         "show_on_desktop": true,
         "show_on_mobile": true
       },
-      "blocks": {
-        "stat_1": {
-          "type": "stat",
-          "settings": {
-            "prefix": "+",
-            "value": 1,
-            "label": "مبيعات «تراث»",
-            "suffix": "M"
-          }
-        },
-        "stat_2": {
-          "type": "stat",
-          "settings": {
-            "prefix": "+",
-            "value": 9,
-            "label": "براندات اشتغلت معاهم"
-          }
-        },
-        "stat_3": {
-          "type": "stat",
-          "settings": {
-            "prefix": "+",
-            "value": 138,
-            "label": "صورة اتسلّمت"
-          }
-        },
-        "stat_4": {
-          "type": "stat",
-          "settings": {
-            "prefix": "",
-            "value": 3,
-            "label": "دول وصلها «تراث»"
-          }
-        }
-      },
-      "block_order": [
-        "stat_1",
-        "stat_2",
-        "stat_3",
-        "stat_4"
-      ]
+      "blocks": {},
+      "block_order": []
     },
     "reviews": {
       "type": "aw-reviews",
