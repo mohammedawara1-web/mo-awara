@@ -170,12 +170,11 @@
             "image": "aw/uploads/torath-nabeez-flatlay.webp"
           }
         },
-        "card_5": {
+        "card_mwoa4ebc": {
           "type": "card",
           "settings": {
-            "label": "أزياء — لايف ستايل",
-            "fallback_asset": "aw-work-07.webp",
-            "image": "aw/uploads/fashion-street-hijab.webp"
+            "label": "MASKDD",
+            "image": "aw/uploads/03-venom-texture-mwoa4rik.webp"
           }
         }
       },
@@ -184,7 +183,7 @@
         "card_2",
         "card_3",
         "card_4",
-        "card_5"
+        "card_mwoa4ebc"
       ]
     },
     "logos": {
