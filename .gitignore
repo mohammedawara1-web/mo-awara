@@ -1,4 +1,4 @@
-# Only the static site (index.html + images/) is published.
+# Only the Awara site is published: index.html, content.json, aw/ and CNAME.
 # Exclude raw source assets and local tooling.
 Ended Projects/
 Orbyt/
@@ -8,3 +8,8 @@ Orbyt/
 .claude/
 Orbyt Admin.command
 Awara Admin.command
+
+# Old Orbyt site files, kept locally only (removed from mo-awara.com on 2026-11-20)
+images/
+projects.json
+site.json
