@@ -1,36 +1,74 @@
-/* Static-site shell for the Awara page: page background, header, footer. */
-html{scroll-behavior:smooth;background:#0A001A}
-body{margin:0;background:#0A001A;color:#BDB6C9;font-family:'Thmanyah Sans','Montserrat',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+/* Static-site shell for the Awara page: page background, header, footer, H1 brand layer.
+   AWARA Brand Kit 2026 (H1): navy ground, cream/heat-white text, amber accents and buttons, red strong accent.
+   Fonts: Manrope (Latin) + Cairo (Arabic). The old purple/Thmanyah theme is remapped in site.mjs (brandRemap). */
+:root{
+  --awara-navy:#040A18;--awara-surface:#0A1428;--awara-heat-white:#FFFDF2;--awara-cream:#FCF5AF;
+  --awara-amber:#F0A533;--awara-orange:#E44F0A;--awara-heat-red:#F2300C;--awara-red:#BA011A;
+  --awara-trail-blue:#1A5E96;--awara-blue:#0B4B8B;--awara-deep-blue:#0B3A66;--awara-halo-blue:#1F6FB0;
+  --awara-ff:'Manrope','Cairo',system-ui,sans-serif;
+}
+html{scroll-behavior:smooth;background:var(--awara-navy)}
+body{margin:0;background:var(--awara-navy);color:#D9D6C8;font-family:var(--awara-ff);-webkit-font-smoothing:antialiased}
 main{display:block}
 .shopify-section{scroll-margin-top:72px}
 #aw-work,#aw-pricing,#aw-faq,#aw-contact{scroll-margin-top:72px}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
+/* brand fonts everywhere (beats the per-section font variables) */
+.aw-sec{--aw-ff:var(--awara-ff)!important;--aw-hf:var(--awara-ff)!important}
+.aw-sec :lang(ar),.aw-sec[dir="rtl"]{font-feature-settings:normal}
+.aw-sec .aw-h1,.aw-sec .aw-h2{font-weight:900;line-height:1.25;letter-spacing:0}
+.aw-sec .aw-h3{line-height:1.45}
+/* buttons on amber: navy text (contrast), heat-white hover */
+.aw-btn{font-weight:800}
+.aw-btn--ghost{--aw-btn-bg:transparent!important;--aw-btn-c:#FFFDF2!important;--aw-btn-bc:rgba(252,245,175,.35)!important}
+/* calm grid: no tech grid lines on navy */
+.aw-grid-bg{display:none}
+/* glows read as soft heat that drifts down-right, never neon */
+.aw-glow{filter:blur(110px);opacity:.28;background:radial-gradient(circle,rgba(228,79,10,.9) 0%,rgba(186,1,26,.45) 38%,rgba(11,58,102,0) 72%)}
+
+/* hero: locked V3 heat reveal (web cut) */
+.aw-h1logo{position:relative;width:min(100%,480px);aspect-ratio:720/800;margin-block:-110px -135px;pointer-events:none;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 12%,#000 88%,transparent 100%),linear-gradient(180deg,transparent 4%,#000 20%,#000 60%,transparent 88%);
+  -webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent 0,#000 12%,#000 88%,transparent 100%),linear-gradient(180deg,transparent 4%,#000 20%,#000 60%,transparent 88%);mask-composite:intersect}
+.aw-h1logo > *{position:absolute;inset:0;width:100%!important;height:100%!important;max-width:none;object-fit:contain;mix-blend-mode:screen}
+.aw-h1logo__still{opacity:0;transition:opacity .4s ease}
+.aw-h1logo.is-done .aw-h1logo__still{opacity:1}
+.aw-h1logo.is-done .aw-h1logo__v{opacity:0;transition:opacity .4s ease .15s}
+html:not(.aw-js) .aw-h1logo__still{opacity:1}
+.aw-hero__copy{position:relative;z-index:1}
+.aw-hero__copy > :not(.aw-h1logo){position:relative;z-index:1}
+@media (max-width:768px){.aw-h1logo{width:min(100%,420px);margin:-80px auto -110px}}
+
 /* header */
-.aw-top{position:sticky;top:0;z-index:1000;background:rgba(10,0,26,.78);backdrop-filter:saturate(140%) blur(14px);-webkit-backdrop-filter:saturate(140%) blur(14px);border-block-end:1px solid rgba(143,59,255,.18)}
-.aw-top__in{max-width:1248px;margin-inline:auto;padding-inline:24px;height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.aw-top__logo img{display:block;width:132px;height:auto}
+.aw-top{position:sticky;top:0;z-index:1000;background:rgba(4,10,24,.82);backdrop-filter:saturate(140%) blur(14px);-webkit-backdrop-filter:saturate(140%) blur(14px);border-block-end:1px solid rgba(252,245,175,.08)}
+.aw-top__in{max-width:1248px;margin-inline:auto;padding-inline:24px;height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.aw-top__logo{display:block;line-height:0}
+.aw-top__lockup{display:block;width:260px;height:auto}
+.aw-top__mark{display:none;width:40px;height:auto}
 .aw-top__nav{display:flex;gap:28px}
 .aw-top__s{display:none}
-.aw-top__nav a{color:#EAEAEA;text-decoration:none;font-weight:700;font-size:15px;opacity:.85;transition:opacity .2s,color .2s}
-.aw-top__nav a:hover{opacity:1;color:#C9A6FF}
-.aw-top .aw-btn{--aw-btn-bg:#6A00FF;--aw-btn-c:#fff;--aw-btn-bc:#8F3BFF;--aw-btn-r:50px;--aw-btn-hbg:#8F3BFF;--aw-btn-hc:#fff;--aw-ff:'Thmanyah Sans','Montserrat',sans-serif;padding:10px 18px;font-size:14.5px}
+.aw-top__nav a{color:#FFFDF2;text-decoration:none;font-weight:700;font-size:15px;opacity:.82;transition:opacity .2s,color .2s}
+.aw-top__nav a:hover{opacity:1;color:var(--awara-amber)}
+.aw-top .aw-btn{--aw-btn-bg:#F0A533;--aw-btn-c:#040A18;--aw-btn-bc:#F0A533;--aw-btn-r:50px;--aw-btn-hbg:#FCF5AF;--aw-btn-hc:#040A18;--aw-ff:var(--awara-ff);padding:10px 18px;font-size:14.5px}
+@media (max-width:980px){.aw-top__nav{gap:18px}.aw-top__lockup{width:200px}}
 @media (max-width:768px){
   .aw-top__in{height:60px;padding-inline:16px}
   .aw-top__nav{display:none}
-  .aw-top__logo img{width:110px}
+  .aw-top__lockup{display:none}
+  .aw-top__mark{display:block}
   .aw-top__l{display:none}
   .aw-top__s{display:inline!important}
   .aw-top .aw-btn{padding:9px 14px}
 }
 
 /* footer */
-.aw-foot{background:#06000F;border-block-start:1px solid rgba(143,59,255,.18);padding:48px 24px 28px}
+.aw-foot{background:#02060F;border-block-start:1px solid rgba(252,245,175,.08);padding:48px 24px 28px}
 .aw-foot__in{max-width:1200px;margin-inline:auto;display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:28px}
-.aw-foot__brand img{width:150px;height:auto;display:block}
+.aw-foot__brand img{width:180px;height:auto;display:block}
 .aw-foot__brand p{margin:14px 0 0;max-width:360px;font-size:14.5px;line-height:1.7}
 .aw-foot__links{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center}
-.aw-foot__links a{color:#EAEAEA;text-decoration:none;font-weight:600;font-size:14.5px}
-.aw-foot__links a:hover{color:#C9A6FF}
+.aw-foot__links a{color:#FFFDF2;text-decoration:none;font-weight:600;font-size:14.5px}
+.aw-foot__links a:hover{color:var(--awara-amber)}
 .aw-foot__copy{max-width:1200px;margin:32px auto 0;padding-block-start:20px;border-block-start:1px solid rgba(255,255,255,.06);font-size:13px;opacity:.6;text-align:center}
-@media (max-width:768px){.aw-foot{padding:36px 16px 24px}.aw-foot__in{flex-direction:column;align-items:center;text-align:center}.aw-foot__links{justify-content:center}}
+@media (max-width:768px){.aw-foot{padding:36px 16px 24px}.aw-foot__in{flex-direction:column;align-items:center;text-align:center}.aw-foot__brand img{margin-inline:auto}.aw-foot__links{justify-content:center}}
