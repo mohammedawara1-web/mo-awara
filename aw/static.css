@@ -102,3 +102,20 @@ html:not(.aw-js) .aw-h1logo__still{opacity:1}
 .aw-foot__links a:hover{color:var(--awara-amber)}
 .aw-foot__copy{max-width:1200px;margin:32px auto 0;padding-block-start:20px;border-block-start:1px solid rgba(255,255,255,.06);font-size:13px;opacity:.6;text-align:center}
 @media (max-width:768px){.aw-foot{padding:36px 16px 24px}.aw-foot__in{flex-direction:column;align-items:center;text-align:center}.aw-foot__brand img{margin-inline:auto}.aw-foot__links{justify-content:center}}
+
+/* ---------- mobile fixes (2026-11-22) ---------- */
+/* never let anything widen the page sideways (clip keeps the sticky header working; hidden is the old-iOS fallback) */
+html,body{max-width:100%;overflow-x:hidden}
+@supports (overflow:clip){html,body{overflow-x:clip}}
+@media (max-width:480px){
+  /* hero: tighter H1 reveal so the headline and the main button sit in the first screen */
+  #shopify-section-aw__hero .aw-sec.aw-hero{--aw-pt:20px;padding-block-start:20px}
+  .aw-h1logo{width:min(100%,360px);margin:-84px auto -112px}
+  /* buttons stay one line: Cairo 800 is wider than the old font, so trim size and side padding on phones */
+  .aw-btn{max-width:100%;white-space:nowrap}
+  .aw-btn--lg{font-size:16px;padding-inline:22px}
+  .aw-btn .aw-wa-ico{flex:none}
+}
+@media (max-width:359px){
+  .aw-btn,.aw-btn--lg{font-size:14.5px;padding-inline:16px;gap:8px}
+}
