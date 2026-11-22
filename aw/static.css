@@ -19,9 +19,39 @@ main{display:block}
 .aw-sec :lang(ar),.aw-sec[dir="rtl"]{font-feature-settings:normal}
 .aw-sec .aw-h1,.aw-sec .aw-h2{font-weight:900;line-height:1.25;letter-spacing:0}
 .aw-sec .aw-h3{line-height:1.45}
-/* buttons on amber: navy text (contrast), heat-white hover */
-.aw-btn{font-weight:800}
-.aw-btn--ghost{--aw-btn-bg:transparent!important;--aw-btn-c:#FFFDF2!important;--aw-btn-bc:rgba(252,245,175,.35)!important}
+/* buttons = the logo's H1 heat glow: heat ramp (heat white > cream > amber > orange), soft amber/red halo.
+   Primary: heat-ramp fill, navy text (4.5:1+ even on the orange end). Ghost: heat-ramp border, heat-white text.
+   Hover/focus: the ramp slides warmer and the glow grows a little. No neon, no loops. */
+.aw-btn{font-weight:800;isolation:isolate;
+  --aw-heat:linear-gradient(115deg,#FFFDF2 0%,#FCF5AF 20%,#F0A533 52%,#E44F0A 100%);
+  --aw-glow:0 0 0 1px rgba(255,253,242,.10),0 6px 18px -6px rgba(240,165,51,.55),0 14px 34px -12px rgba(186,1,26,.70);
+  --aw-glow-h:0 0 0 1px rgba(255,253,242,.18),0 8px 26px -6px rgba(240,165,51,.75),0 18px 46px -12px rgba(186,1,26,.85),0 0 42px -10px rgba(228,79,10,.55)}
+.aw-btn:not(.aw-btn--ghost){background:var(--aw-heat) 0 0/170% 100% no-repeat,#F0A533!important;color:#040A18!important;border-color:transparent!important;
+  box-shadow:var(--aw-glow),inset 0 1px 0 rgba(255,253,242,.65),inset 0 -2px 6px -2px rgba(186,1,26,.35);
+  transition:background-position .45s ease,transform .25s ease,box-shadow .35s ease}
+.aw-btn:not(.aw-btn--ghost):hover,.aw-btn:not(.aw-btn--ghost):focus-visible{background-position:100% 0!important;color:#040A18!important;
+  box-shadow:var(--aw-glow-h),inset 0 1px 0 rgba(255,253,242,.75),inset 0 -2px 6px -2px rgba(186,1,26,.4)}
+.aw-btn--ghost{--aw-btn-bg:transparent!important;--aw-btn-c:#FFFDF2!important;--aw-btn-bc:transparent!important;
+  background:rgba(240,165,51,.04)!important;color:#FFFDF2!important;border-color:transparent!important;
+  box-shadow:0 8px 24px -14px rgba(186,1,26,.65),0 0 18px -10px rgba(240,165,51,.45)!important;transition:background-color .3s ease,transform .25s ease,box-shadow .35s ease}
+.aw-btn--ghost::before{content:"";position:absolute;inset:-1.5px;border-radius:inherit;padding:1.5px;background:var(--aw-heat);z-index:-1;pointer-events:none;
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);opacity:.8;transition:opacity .3s ease}
+.aw-btn--ghost:hover,.aw-btn--ghost:focus-visible{background:rgba(240,165,51,.10)!important;color:#FFFDF2!important;
+  box-shadow:0 10px 30px -12px rgba(186,1,26,.8),0 0 28px -8px rgba(240,165,51,.55)!important}
+.aw-btn--ghost:hover::before,.aw-btn--ghost:focus-visible::before{opacity:1}
+.aw-btn:focus-visible{outline:2px solid #FFFDF2;outline-offset:3px}
+/* WhatsApp floating button: same heat fill and glow (icon + label in navy) */
+#shopify-section-aw__whatsapp .aw-float__btn{background:linear-gradient(115deg,#FFFDF2 0%,#FCF5AF 20%,#F0A533 52%,#E44F0A 100%) 0 0/170% 100% no-repeat,#F0A533!important;color:#040A18!important;
+  box-shadow:0 0 0 1px rgba(255,253,242,.12),0 8px 22px -6px rgba(240,165,51,.6),0 16px 38px -12px rgba(186,1,26,.8),inset 0 1px 0 rgba(255,253,242,.65)!important;
+  animation:aw-heat-breathe 3.2s ease-in-out infinite 2s!important;transition:transform .45s cubic-bezier(.2,.8,.2,1),opacity .45s ease,background-position .45s ease!important}
+#shopify-section-aw__whatsapp .aw-float__btn:hover,#shopify-section-aw__whatsapp .aw-float__btn:focus-visible{background-position:100% 0!important}
+@keyframes aw-heat-breathe{0%,100%{box-shadow:0 0 0 1px rgba(255,253,242,.12),0 8px 22px -6px rgba(240,165,51,.6),0 16px 38px -12px rgba(186,1,26,.8),inset 0 1px 0 rgba(255,253,242,.65)}
+  50%{box-shadow:0 0 0 1px rgba(255,253,242,.2),0 10px 30px -6px rgba(240,165,51,.85),0 20px 48px -12px rgba(186,1,26,.95),inset 0 1px 0 rgba(255,253,242,.75)}}
+@media (prefers-reduced-motion:reduce){
+  .aw-btn,.aw-btn--ghost,.aw-btn--ghost::before{transition:none!important}
+  .aw-btn:hover,.aw-btn:focus-visible{transform:none!important}
+  #shopify-section-aw__whatsapp .aw-float__btn{animation:none!important}
+}
 /* calm grid: no tech grid lines on navy */
 .aw-grid-bg{display:none}
 /* glows read as soft heat that drifts down-right, never neon */
